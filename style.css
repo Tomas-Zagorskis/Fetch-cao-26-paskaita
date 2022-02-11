@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --clr-primary: #03b4e0;
+  --clr-light-primary: #c1eef7;
+  --clr-light-grey: #e1e5e8;
+  --clr-grey: #bebebe;
+  --clr-dark-grey: #5a5a5a;
+}
+body {
+  background-color: var(--clr-light-grey);
+}
